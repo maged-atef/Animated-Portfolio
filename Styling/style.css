@@ -130,7 +130,7 @@ li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
+
   color: var(--lightColor);
   /* background-color: red; */
   /* margin: 0 auto; */
