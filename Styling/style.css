@@ -169,6 +169,7 @@ li a:hover {
 
 .img-content img {
   /* height: 90%; */
+
   border-radius: 20%;
 }
 @keyframes bounceIn {
@@ -217,7 +218,7 @@ li a:hover {
 .img-content {
   width: 100%;
   position: relative;
-  height: 90%;
+ 
 }
 
 .img-content img {
