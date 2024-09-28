@@ -1,5 +1,5 @@
 /* Start Reset HTML  */
-*, ::after ,::before { 
+*, ::after ,::before  { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -64,6 +64,7 @@ li , a{
         flex-direction: column;
         height: 100vh;
         background-color: var(--bgColormain);
+        opacity: 95%;
 
     }
     nav{ 
@@ -121,10 +122,11 @@ li , a{
         align-items: center;
         flex-grow: 1;
         color: var(--lightColor);
-       
+       /* background-color: red; */
+       /* margin: 0 auto; */
     }
     .text-content{ 
-        width: 45%;
+        width: 60%;
         position: relative;
        
         padding-left: var(--padding);
@@ -150,10 +152,18 @@ li , a{
 .img-content{
    
     width: 45%;
+    /* background-color: blue; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
   
 .img-content img{ 
-    height: 90%;
+    /* height: 90%; */
+    border-radius: 20%;
+    
 }
     @keyframes bounceIn {
         from,
@@ -214,12 +224,12 @@ li , a{
 
     .img-content img{ 
         width: 60%;
-        position:absolute;
+        /* position:absolute;
         bottom: 0;
         left: 50%;
         transform: translateX(-50%); 
         transition: 0.7s all;
-        cursor: pointer;
+        cursor: pointer; */
     }
     .img-content p  {
         position: absolute;
@@ -284,19 +294,19 @@ li , a{
 
         }
         .img-content{
-            order: -1;
+            /* order: -1; */
             width: 100%;
            position: relative;
-          height: 700px;
+             /* height: 700px; */
           /* background-color: #fff; */
 
 
         }
-        .img-content img{ 
-            width: 50%;
-          position: absolute;
+        .img-content .my-img{ 
+            width: 80%;
+          /* position: absolute; */
           /* height: 50vh; */
-          
+         
 
         }
         .img-content:hover .back-ground{ 
@@ -321,6 +331,38 @@ li , a{
          /* height: 50vh; */
            
             padding: var(--padding);
+        }
+
+        .social { 
+            display: flex;
+            justify-content: center;
+        }
+
+        .education  { 
+            background-color: rgba(128, 128, 128, 0.322);
+           
+        }
+        .edu-title{ 
+            margin: 0;
+            padding: 10px;
+            text-transform: capitalize;
+        }
+        .container{ 
+           text-align: center;
+        }
+        .place-title{
+            color:var(--primaryColor);
+        }
+        .cert{ 
+            background-color: rgba(128, 128, 128, 0.36);
+            padding: 10px;
+            border-radius: 10px;
+            width: 95%;
+            margin: 10px auto;
+        }
+        .cert img{
+            border-radius: 50px;
+            margin: 5px 0 ;
         }
     }
 
