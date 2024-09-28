@@ -264,14 +264,16 @@ li , a{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        overflow: hidden;
     }
 
     .text-content{
-        width: 50%;
+       
     }
     .img-content{
-        width: 45%;
+        
     }
+
     
 }
     @media screen and (max-width:1120px) {
