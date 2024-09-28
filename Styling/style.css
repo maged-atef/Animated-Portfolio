@@ -276,7 +276,7 @@ li , a{
 
     
 }
-    @media screen and (max-width:1120px) {
+    @media screen and (max-width:629px) {
         .mainHeader{
             height: 100vh;
             background-color: var(--bgColormain);
