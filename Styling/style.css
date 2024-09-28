@@ -383,6 +383,10 @@ justify-content: center;
             display: none;
         }
 
+        .text-content{ 
+            width: 60%;
+        }
+
         .cert-all{ 
             display: flex;
             flex-wrap: wrap;
