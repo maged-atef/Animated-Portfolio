@@ -77,7 +77,7 @@ h4 {
 .mainHeader {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+
   background-color: var(--bgColormain);
   opacity: 95%;
 }
