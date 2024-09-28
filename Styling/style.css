@@ -293,7 +293,7 @@ li , a{
             justify-content: center;
             gap: 0;
             /* background-color: red; */
-            /* overflow: auto; */
+            overflow: auto;
 
         }
         .img-content{
