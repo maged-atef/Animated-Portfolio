@@ -422,5 +422,10 @@ li a:hover {
     color: rgba(0, 128, 0, 0.856);
     font-size: 1rem;
   }
+  .content{ 
+display: flex;
+justify-content: space-around;
+align-items: center;
+  }
 }
 /* End of Media Queries  */
