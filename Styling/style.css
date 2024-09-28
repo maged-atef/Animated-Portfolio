@@ -340,6 +340,7 @@ li , a{
 
         .education  { 
             background-color: rgba(128, 128, 128, 0.322);
+            text-align: center;
            
         }
         .edu-title{ 
